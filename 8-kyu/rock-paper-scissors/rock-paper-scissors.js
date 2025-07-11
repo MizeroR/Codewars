@@ -3,6 +3,12 @@ const rps = (p1, p2) => {
   let message
   if (p1 === 'rock' && p2 === 'scissors'){
     message = 'Player 1 won!'
+  } 
+  if (p1 === 'scissors' && p2 === 'paper'){
+    message = 'Player 1 won!'
+  }
+  if (p1 === 'paper' && p2 === 'rock'){
+    message = 'Player 1 won!'
   }
 //   p1 = 'rock'
 //   p2 = 'scissors'
@@ -12,6 +18,5 @@ const rps = (p1, p2) => {
   
 //   p1 = 'paper'
 //   p2 = 'rock'
-  console.log(message)
   return message
 };
