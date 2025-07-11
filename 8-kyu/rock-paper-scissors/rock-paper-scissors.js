@@ -20,7 +20,7 @@ const rps = (p1, p2) => {
     message = 'Player 2 won!'
   }
   if (p1 === p2){
-    message = 'Draw'
+    message = 'Draw!'
   }
 //   p1 = 'rock'
 //   p2 = 'scissors'
