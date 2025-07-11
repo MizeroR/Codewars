@@ -3,8 +3,7 @@ function countPositivesSumNegatives(input) {
   let sum = 0
   for(let i = 0; i<input.length;i++){
     if (input[i] > 0){
-      console.log(input[i])
-      count +=input[i]
+      count ++
     }
   }
   return [count,sum]
