@@ -8,6 +8,6 @@ const rps = (p1, p2) => {
     paper: 'rock'
   }
  
-  return rules.p1 === p2 ? 'Player 1 won!' : 'Player 2 won!'
+  return rules[p1] === p2 ? 'Player 1 won!' : 'Player 2 won!'
 ​
 };
