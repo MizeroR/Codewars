@@ -6,5 +6,10 @@ function countPositivesSumNegatives(input) {
       count ++
     }
   }
+  for(let i = 0; i<input.length;i++){
+    if (input[i] < 0){
+      sum += input[i]
+    }
+  }
   return [count,sum]
 }
