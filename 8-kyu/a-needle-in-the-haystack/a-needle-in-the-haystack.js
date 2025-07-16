@@ -1,5 +1,5 @@
 function findNeedle(haystack) {
-  if (haystack.includes('needle')){
-    console.log("")
+  for(let i = 0; i<haystack.length;i++){
+    console.log(haystack[i])
   }
 }
