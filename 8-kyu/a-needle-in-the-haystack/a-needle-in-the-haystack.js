@@ -1,5 +1,7 @@
 function findNeedle(haystack) {
   for(let i = 0; i<haystack.length;i++){
-    console.log(haystack[i])
+    if(haystack[i] === 'needle'){
+      return `found the needle at position  ${i}`
+    }
   }
 }
