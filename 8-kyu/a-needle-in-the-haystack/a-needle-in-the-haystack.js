@@ -1,3 +1,3 @@
 function findNeedle(haystack) {
-  return `found the needle at position ${haystack.indexof('needle')}`
+  return `found the needle at position ${haystack.indexOf('needle')}`
 }
