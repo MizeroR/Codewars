@@ -1,7 +1,7 @@
  
 function smallEnough(a, limit){
   for(let i=0; i<a.length;i++){
-    if(a[i]>=limit) return true
+    if(a[i]>=limit) {return true}
+    return false
   }
-  return false
 }
