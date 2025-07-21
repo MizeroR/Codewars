@@ -4,8 +4,8 @@ function largest(n, array) {
   array.sort((a,b) => b-a)
   for (let num of array){
     if(answer.length < n){
-      answer.push(num).reverse()
+      answer.push(num).
     }
   }
-  return answer;
+  return answer.sort((a,b) => a-b)
 }
