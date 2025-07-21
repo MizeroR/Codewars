@@ -1,11 +1,7 @@
- 
 function largest(n, array) {
-  let answer = []
-  array.sort((a,b) => b-a)
-  for (let num of array){
-    if(answer.length < n){
-      answer.push(num)
-    }
-  }
-  return answer.sort((a,b) => a-b)
+  if (n<=0) return [];
+  return [...array]
+    .sort((a,b)=>b-a)
+    .slice(0,n)
+    .sort((a,b)=>a-b)
 }
