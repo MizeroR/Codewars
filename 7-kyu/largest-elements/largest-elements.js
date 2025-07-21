@@ -1,6 +1,10 @@
 function largest(n, array) {
+  let answer = []
+  array.sort((a,b) => b-a)
   for (let num of array){
-    console.log(num)
+    if(answer.length < n){
+      answer.push(num)
+    }
   }
-  return [];
+  return answer;
 }
