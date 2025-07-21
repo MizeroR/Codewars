@@ -1,4 +1,3 @@
- 
 function noOdds( values ){
   let evens = []
   for(let num of values){
