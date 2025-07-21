@@ -6,9 +6,10 @@ function nbDig(n, d) {
   
   let count = 0
   let digit = d.toString()
-  console.log(digit)
   for (let num of squares){
     let numString = num.toString()
+      console.log(numString)
+​
     for (let digit of numString){
       if (digit === digit) count++
     }
