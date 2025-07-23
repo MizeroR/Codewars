@@ -1,4 +1,4 @@
  
 function minMax(arr){
-  return [Array.min(arr),Array.max(arr)];
+  return [Math.min(arr),Math.max(arr)];
 }
