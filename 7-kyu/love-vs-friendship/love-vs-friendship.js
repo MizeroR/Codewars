@@ -1,4 +1,3 @@
- 
 function wordsToMarks(string) {
   let letters = 'abcdefghijklmnopqrstuvwxyz';
   let sum = 0;
