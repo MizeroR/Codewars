@@ -1,4 +1,4 @@
  
 function unusualFive() {
-  return 'hello'.length;
+  return 'usual'.length;
 }
