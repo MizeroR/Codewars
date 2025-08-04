@@ -1,3 +1,5 @@
+ 
 function unusualFive() {
-  return 5;
+  let x = 5
+  return x;
 }
