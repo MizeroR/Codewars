@@ -1,3 +1,4 @@
+ 
 function mix(s1, s2) {
   let countLetters = (s) => {
     let counts = {}
