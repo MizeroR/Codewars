@@ -14,3 +14,4 @@ function mix(s1, s2) {
   console.log(letters)
   
 }
+console.log(mix("Are they here", "yes, they are here"))
