@@ -31,11 +31,18 @@ function mix(s1, s2) {
       prefix = '='
     }
     result.push(`${prefix}:${letter.repeat(maxCount)}`);
-    console.log(result)
-    result.sort((a,b) => {
-      if(a.length!==b.length) return b.length - a.length
-    })
   }
+    
+    console.log(result)
+    result.sort((a, b) => {
+        if (b.length !== a.length) {
+            return b.length - a.length;
+        } else {
+            return a.localeCompare(b);
+        }
+    });
+    return result.join('/')
+​
   
 }
 console.log(mix("Are they here", "yes, they are here"))
