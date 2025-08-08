@@ -32,8 +32,7 @@ function mix(s1, s2) {
     }
     result.push(`${prefix}:${letter.repeat(maxCount)}`);
   }
-    
-    console.log(result)
+  
     result.sort((a, b) => {
         if (b.length !== a.length) {
             return b.length - a.length;
@@ -41,8 +40,8 @@ function mix(s1, s2) {
             return a.localeCompare(b);
         }
     });
+  console.log(result)
     return result.join('/')
-​
   
 }
 console.log(mix("Are they here", "yes, they are here"))
