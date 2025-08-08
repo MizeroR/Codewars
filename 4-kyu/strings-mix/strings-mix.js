@@ -1,4 +1,3 @@
- 
 function mix(s1, s2) {
   let countLetters = (s) => {
     let counts = {}
@@ -11,8 +10,13 @@ function mix(s1, s2) {
   }
   let counts1 = countLetters(s1)
   let counts2 = countLetters(s2)
-  console.log(counts1,counts2)
   const letters = new Set([...Object.keys(counts1), ...Object.keys(counts2)]);
+  
+  for(let letter of letters){
+    let count1 = counts1[letter] || 0
+    let count2 = counts2[letter] || 0
+    console.log(count1,count2)
+  }
   console.log(letters)
   
 }
