@@ -23,7 +23,7 @@ function mix(s1, s2) {
     if(count1>count2){
       prefix ='1'
     }
-    else if (count1<count2){
+    else if (count2>count1){
       prefix ='2'
     }
     else {
@@ -39,7 +39,6 @@ function mix(s1, s2) {
             return a.localeCompare(b);
         }
     });
-  console.log(result)
     return result.join('/')
   
 }
