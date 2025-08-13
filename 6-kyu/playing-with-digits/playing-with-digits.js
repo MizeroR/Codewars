@@ -1,4 +1,3 @@
- 
 function digPow(n, p){
   let number = n.toString().split('')
   let sum = 0
