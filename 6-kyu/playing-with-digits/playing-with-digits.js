@@ -6,6 +6,6 @@ function digPow(n, p){
     let power = p+i
     sum+=digit**power
   }
-  if(sum%n===0) return 'true'
+  if(sum%n===0) return sum/n
 }
 ​
