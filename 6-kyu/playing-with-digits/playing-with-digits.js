@@ -1,3 +1,4 @@
+ 
 function digPow(n, p){
   let num = n.toString()
   console.log(num)
