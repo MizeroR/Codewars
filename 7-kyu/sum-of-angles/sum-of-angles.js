@@ -1,5 +1,5 @@
  
 function angle(n) {
-  return (n − 2) * 180 
+  return (n - 2) * 180 
 }
-console.log(angle(3))
+​
