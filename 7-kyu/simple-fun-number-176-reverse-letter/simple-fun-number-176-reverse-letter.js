@@ -1,4 +1,3 @@
- 
 function reverseLetter(str) {
   let result = []
   for (let char of str){
