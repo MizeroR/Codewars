@@ -1,3 +1,4 @@
+ 
 function digPow(n, p){
   let number = n.toString().split('')
   let sum = 0
@@ -6,6 +7,6 @@ function digPow(n, p){
     let power = p+i
     sum+=digit**power
   }
-  console.log(sum)
+  if(sum%n===0) return 'true'
 }
-console.log(digPow(695,2))
+​
