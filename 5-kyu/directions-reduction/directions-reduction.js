@@ -1,3 +1,4 @@
+ 
 function dirReduc(arr) {
     const opposites = {
         'NORTH': 'SOUTH',
@@ -5,9 +6,9 @@ function dirReduc(arr) {
         'EAST': 'WEST',
         'WEST': 'EAST'
     };
-  let i = 0;
+  let i = 1;
   console.log(arr.length)
-    while (i < arr.length - 1) {
+    while (i < arr.length) {
         if (opposites[arr[i]] === arr[i + 1]) {
             arr.splice(i, 2);
             i = 0; // Reset to start after modification
@@ -15,5 +16,5 @@ function dirReduc(arr) {
             i++;
         }
     }
-    
+    return arr
 }
