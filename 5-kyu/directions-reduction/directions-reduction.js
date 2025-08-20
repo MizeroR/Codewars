@@ -5,16 +5,15 @@ function dirReduc(arr) {
         'EAST': 'WEST',
         'WEST': 'EAST'
     };
-  let i = 1;
-    while (i < arr.length) {
-      console.log(opposites[arr[i]])
+  let i = 0;
+    while (i < arr.length - 1) {
         if (opposites[arr[i]] === arr[i + 1]) {
             arr.splice(i, 2);
-            i = 0; // Reset to start after modification
+            i = 0; 
         } else {
             i++;
         }
     }
     return arr
 }
-console.log(dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]))
+​
