@@ -1,3 +1,4 @@
+ 
 function dirReduc(arr) {
     const opposites = {
         'NORTH': 'SOUTH',
